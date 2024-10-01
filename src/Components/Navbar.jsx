@@ -7,7 +7,6 @@ import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     const [nav, setNav] = useState(false);
-
     const handleChange = () => {
         setNav(!nav);
     };
